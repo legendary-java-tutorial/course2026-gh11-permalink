@@ -1,7 +1,14 @@
 {
   "theme": "Числа",
-  "greeting": "Я загадал число. Угадаешь?",
+  "greeting": "Режимы: classic, quick",
   "modes": {
+    "quick": {
+      "min": 1,
+      "max": 10,
+      "higher": "больше",
+      "lower": "меньше",
+      "win": "молния!"
+    },
     "classic": {
       "min": 1,
       "max": 100,
